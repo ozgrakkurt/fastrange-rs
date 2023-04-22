@@ -2,3 +2,8 @@
 name = "fastrange-rs"
 version = "0.0.1"
 edition = "2021"
+license = "MIT"
+description = " A fast alternative to the modulo reduction ported to Rust"
+homepage = "https://github.com/ozgrakkurt/fastrange-rs"
+repository = "https://github.com/ozgrakkurt/fastrange-rs"
+authors = ["Ozgur Akkurt <oezgurmakkurt@gmail.com>"]
