@@ -23,11 +23,7 @@ pub fn fastrange_usize(word: usize, p: usize) -> usize {
         fastrange_64(word as u64, p as u64) as usize
     }
 
-    #[cfg(all(
-        not(target_pointer_width = "64"),
-        not(target_pointer_width = "32"),
-        not(target_pointer_width = "16")
-    ))]
+    #[cfg(all(not(target_pointer_width = "64"), not(target_pointer_width = "32")))]
     {
         compile_error!("target not supported.");
     }
