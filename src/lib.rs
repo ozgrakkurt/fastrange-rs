@@ -1,3 +1,5 @@
+#![no_std]
+
 /// Given a value "word", produces an integer in [0,p) without division.
 #[inline(always)]
 pub fn fastrange_32(word: u32, p: u32) -> u32 {
